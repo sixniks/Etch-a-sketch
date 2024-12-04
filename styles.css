@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.container{
+    
+    border: 10px solid black;
+    display: flex;
+    /* justify-content: center;  */
+    flex-wrap: wrap;
+    width: 960px;
+    height: 600px;
+    /* flex-direction: column; */
+    flex-shrink: 0;
+    
+    
+}
+.newBoxH{
+    width: 150px; 
+    /* height: auto; */
+border: 2px solid black;
+display: flex;
+justify-content: space-between;
+flex-grow: 1;
+
+
+}
+.topCont{
+padding: 15px;}
