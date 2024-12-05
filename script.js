@@ -13,9 +13,9 @@ goButton.addEventListener("click",getInput)
 function getInput(){
     cont.innerText=""
    let number=Number(userInput.value)
-if(number>=96){
+if(number>=7000){
     userInput.value=""
-    return alert("ERROR please enter a number under 96")
+    return alert("ERROR please enter a number under 6000")
 }
     userInput.value=""
 
