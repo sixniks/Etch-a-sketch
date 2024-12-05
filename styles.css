@@ -25,4 +25,6 @@ flex-grow: 1;
 
 .donotdisplay{
     display: none;
+    /* huh */
+    font-size: 5px;
 }
