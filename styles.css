@@ -6,6 +6,11 @@ body{
     align-self: center;
 }
 
+.donotdisplay{
+    display: none;
+    font-size: 5px;
+}
+
 .container{
     
     border: 10px solid black;
@@ -23,8 +28,3 @@ display: flex;
 flex-grow: 1;
 }
 
-.donotdisplay{
-    display: none;
-    /* huh */
-    font-size: 5px;
-}
