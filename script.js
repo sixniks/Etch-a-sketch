@@ -15,7 +15,7 @@ function getInput(){
    let number=Number(userInput.value)
 if(number>=7000){
     userInput.value=""
-    return alert("ERROR please enter a number under 6000")
+    return alert("ERROR please enter a number under 7000")
 }
     userInput.value=""
 
